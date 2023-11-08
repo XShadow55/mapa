@@ -10,6 +10,6 @@ public interface EmployeeService {
     Set add(String firstName, String lastName);
     String  remove(String firstName,String lastName);
     Boolean search(String firstName,String lastName);
-    Integer size();
+
 
 }

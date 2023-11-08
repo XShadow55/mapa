@@ -28,10 +28,7 @@ public class EmployeeController {
     public Boolean search(@RequestParam String name,@RequestParam String lastname) {
         return servis.search(name, lastname);
     }
-    @GetMapping("/size")
-    public Integer search() {
-        return servis.size();
-    }
+
 
 
 }
